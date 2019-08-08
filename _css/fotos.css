@@ -1,0 +1,189 @@
+@charset "utf-8";
+
+
+img#fontfoto {
+margin-left: 610px;
+	margin-top: 30px;
+	width: 100px; 
+}
+div#mouse-ani p {
+	position: relative;
+	right: 50px; }
+
+
+div#mouse-ani {
+	position: absolute;
+	left: 1000px;
+	top: 350px;
+	}
+marquee#marquee {
+	width: 120px;
+	 }
+ul#galeria {
+	margin-top: 70px;
+	margin-right: 10px;
+	margin-left: -40px;
+	list-style: none;
+	padding-top: 50px;
+	padding: 100px 50px 30px 50px;
+	overflow: hidden;
+	}
+	
+	ul#galeria li {
+	float: left; 
+	border: 3px solid rgba(255, 0, 0, .5);
+	width: 300px;
+	height: 300px;
+	margin-left: 85px;
+	margin-bottom: 60px;
+	box-shadow: 1px 1px 30px rgba(255, 0, 0, .8);
+	-webkit-transition: all 2s ease-out;
+	}
+ul#galeria li:hover {
+	-webkit-transform: scale(1.5);
+}
+ul#galeria li#foto01 {
+	background: url('../imagens/01.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 450px 450px; }
+ul#galeria li#foto01:hover {
+	background-position: 0px 0px;
+	background-size: 300px 300px; }
+
+ul#galeria li#foto02 {
+	background: url('../imagens/02.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 450px 450px; }
+ul#galeria li#foto02:hover {
+	background-position: 0px 0px;
+	background-size: 300px 300px; }
+	
+ul#galeria li#foto03 {
+	background: url('../imagens/03.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 450px 450px }
+ul#galeria li#foto03:hover {
+	background-position: 0px 0px;
+	background-size: 300px 300px; }
+	
+ul#galeria li#foto04 {
+	background: url('../imagens/04.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 450px 450px }
+ul#galeria li#foto04:hover {
+	background-position: 0px 0px;
+	background-size: 300px 300px; }
+	
+ul#galeria li#foto05 {
+	background: url('../imagens/05.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 450px 450px }
+ul#galeria li#foto05:hover {
+	background-position: 0px 0px;
+	background-size: 300px 300px; }
+	
+ul#galeria li#foto06 {
+	background: url('../imagens/06.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 450px 450px }
+ul#galeria li#foto06:hover {
+	background-position: 0px 0px;
+	background-size: 300px 300px; }
+	
+ul#galeria li#foto07 {
+	background: url('../imagens/07.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 450px 450px }
+ul#galeria li#foto07:hover {
+	background-position: 0px 0px;
+	background-size: 300px 300px; }
+	
+ul#galeria li#foto08 {
+	background: url('../imagens/08.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 450px 450px }
+ul#galeria li#foto08:hover {
+	background-position: 0px 0px;
+	background-size: 300px 300px; }
+	
+ul#galeria li#foto09 {
+	background: url('../imagens/09.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 450px 450px }
+ul#galeria li#foto09:hover {
+	background-position: 0px 0px;
+	background-size: 300px 300px; }
+	
+ul#galeria li#foto10 {
+	background: url('../imagens/10.jpg') no-repeat;
+background-position: 50% 50%;
+	background-size: 450px 450px }
+ul#galeria li#foto10:hover {
+	background-position: 0px 0px;
+	background-size: 300px 300px; }
+	
+ul#galeria li#foto11 {
+	background: url('../imagens/11.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 450px 450px }
+ul#galeria li#foto11:hover {
+	background-position: 0px 0px;
+	background-size: 300px 300px; }
+	
+ul#galeria li#foto12 {
+	background: url('../imagens/12.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 450px 450px }
+ul#galeria li#foto12:hover {
+	background-position: 0px 0px;
+	background-size: 300px 300px; }
+	
+ul#galeria li#foto13 {
+	background: url('../imagens/13.jpg') no-repeat;
+background-position: 50% 50%;
+	background-size: 450px 450px }
+ul#galeria li#foto13:hover {
+	background-position: 0px 0px;
+	background-size: 300px 300px; }
+	
+ul#galeria li#foto14 {
+	background: url('../imagens/14.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 450px 450px }
+ul#galeria li#foto14:hover {
+	background-position: 0px 0px;
+	background-size: 300px 300px; }
+	
+ul#galeria li#foto15 {
+	background: url('../imagens/15.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 450px 450px }
+ul#galeria li#foto15:hover {
+	background-position: 0px 0px;
+	background-size: 300px 300px; }
+	
+ul#galeria li#foto16 {
+	background: url('../imagens/16.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 450px 450px }
+ul#galeria li#foto16:hover {
+	background-position: 0px 0px;
+	background-size: 300px 300px; }
+
+ul#galeria li#foto17 {
+	background: url('../imagens/17.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 450px 450px }
+ul#galeria li#foto17:hover {
+	background-position: 0px 0px;
+	background-size: 300px 300px; }
+
+ul#galeria li#foto18 {
+	background: url('../imagens/19.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 450px 450px; }
+ul#galeria li#foto18:hover {
+	background-position: 0px 0px;
+	background-size: 300px 300px;
+
+	

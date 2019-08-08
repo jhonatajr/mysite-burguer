@@ -1,0 +1,71 @@
+@charset "utf-8";
+div#gru {
+	border-bottom: 1px solid #ffffff;
+	padding-bottom: 100px;
+	margin-top: 50px;
+	position: relative;
+	margin-left: 30px;
+	margin-right: 30px;
+	}
+	/* frames e Os blocos das divs */
+iframe#guarulhos {
+	position: relative;
+	margin-left: 650px;
+	width: 540px; }
+	
+div#belem {
+	margin-top: 50px;
+	padding: 20px;
+	position: relative;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	
+	height: 692px;
+	 }
+iframe#belem {
+ position: relative;
+	margin-left: 650px; }	
+	
+div#gru img#guarulhos {
+	width: 600px;
+	margin-top: -300px;
+	box-shadow: 1px 2px 3px #ffffff; }
+	
+div#belem img#belem {
+	width: 600px;
+	margin-top: -300px;
+	box-shadow: 1px 2px 3px #ffffff; }
+	/* paragrafos */
+div#gru p {
+border: 1px solid white;
+background-color: #333;
+padding: 10px;
+margin-left: 650px;
+margin-top: -120px;
+margin-right: 27px;}
+	
+.funcionamento {
+	margin-left: 210px; }
+ 
+div#belem p {	
+border: 1px solid white;
+background-color: #333;
+padding: 10px;
+margin-left: 650px;
+margin-top: -270px;
+margin-right: 27px;}
+
+div#gru img#uni-gru {
+	width: 150px; 
+	margin-left: 530px;
+	margin-bottom: 20px;}
+	
+div#belem img#uni-sp {
+	width: 150px; 
+	margin-left: 530px;
+	margin-bottom: 20px }
+	
+	
+	
+

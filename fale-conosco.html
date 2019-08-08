@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" type="text/css" href="_css/estilo.css" />
+<link rel="stylesheet" type="text/css" href="_css/form.css"  />
+<script>
+	
+        function validar () {
+        var name, tel, mail, msg; 
+
+        	name = document.formbdg.txtNome.value
+	if (name.length == 0 ) {
+		alert("Preencha o campo nome");
+		document.formbdg.txtNome.style.background = "yellow";
+		document.formbdg.txtNome.focus();
+		document.formbdg.txtNome.value = "";
+		return false;
+	}
+    tel = document.formbdg.txtTel.value; 
+     if (tel.length == 0 || isNaN(tel) ) {
+     	alert("Preencha o campo telefone");
+     	document.formbdg.txtTel.style.background = "yellow";
+     	document.formbdg.txtTel.focus();
+     	document.formbdg.txtTel.value = "";
+     	return false;
+     }
+     mail = document.formbdg.txtEmail.value;
+     if (mail.indexOf ("@") < 0 || mail.length == 0) {
+     	alert("Preencha o campo E-mail");
+     	document.formbdg.txtEmail.style.background = "yellow";
+     	document.formbdg.txtEmail.focus();
+     	document.formbdg.txtEmail.value = "";
+     	return false;
+     }
+	
+	msg = document.formbdg.txtMen.value;
+	if (msg.length == 0 ){
+		alert("Qual sua sugestão ou reclamação?");
+     	document.formbdg.txtMen.style.background = "yellow";
+     	document.formbdg.txtMen.focus();
+     	document.formbdg.txtMen.value = "";
+     	return false; }
+		
+
+     document.formbdg.submit(); 
+
+ }
+
+	   	</script>
+<script src="javascript/script.js"> </script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Fale Conosco</title>
+</head>
+
+<body>
+<div id="interface">
+<header id="cabecalho">
+<hgroup>
+	<h3> Delivery Guarulhos: (11) 2440-8449 </h3>
+    <h3> Delivery São Paulo: (11) 2692-1982 </h3>
+</hgroup>
+<!-- area dos icones !-->
+<a href="https://www.facebook.com/burguerdegaragem/" target="_blank"> <img id="facebook" src="imagens/icon-facebook.png" /> </a>
+   <a href="http://instagram.com/burguerdegaragem" target="_blank"> <img id="instagram" src="imagens/icon-instagram.png" /> </a>
+
+<img id="icon" src="imagens/icon-faleconosco.png" /> 
+<nav id= "menu">
+
+	<ul type="disc">
+	<li onmousemove="mudaFoto('imagens/icon-inicio.png')" onmouseout="mudaFoto('imagens/icon-faleconosco.png')"> <a href="index.html"> Ínicio </a> </li>
+	<li class="menulist" onmousemove="mudaFoto('imagens/icon-cardapio.jpg')" onmouseout="mudaFoto('imagens/icon-faleconosco.png')"> <a href="cardapio.html"> Cardapio </a></li> 
+	<li onmousemove="mudaFoto('imagens/icon-foto.png')" onmouseout="mudaFoto('imagens/icon-faleconosco.png')" > <a href="fotos.html"> Fotos </a> </li> 
+    <li id="space">  </li>
+    
+	<li class="menulist" onmousemove="mudaFoto('imagens/icon-unidade.png')" onmouseout="mudaFoto('imagens/icon-faleconosco.png')"> <a href="unidades.html"> Unidades </a> </li>
+	<li class="menulist" onmousemove="mudaFoto('imagens/icon-faleconosco.png')" onmouseout="mudaFoto('imagens/icon-faleconosco.png')" > <a href="fale-conosco.html"> Fale-Conosco </a> </li>
+	</ul> 
+    <img id="logotipo" src="imagens/bdg-logo.jpg" />
+</nav>
+</header>
+<br />
+<section id="corpo-full"> 
+<div id="imgfontconosco">
+<img id="fontconosco" src="imagens/fontconosco.png"> 
+</div>
+<form name="formbdg" method="post" action="grava.jsp">
+<fieldset id="Cliente">
+<legend> Cliente </legend>
+ <label for="cNome"><p>  Nome:</p> </label> 
+<input type="text" name="txtNome" id="cNome"  />
+ <label for="cTel"> <p>  Telefone: </p> </label> 
+<input type="text" name="txtTel" id="cTel" placeholder=" XXXX-XXXXX" />
+<label for="cMail"> <p> Email: </label> </p>
+<input type="text" name="txtEmail" id="cMail" />
+ <label for="unid"> <p>  Qual unidade você é cliente? </p> </label>
+<select name="unidade" id="unid"> 
+<option value="gru"> Guarulhos </option>
+<option value="sp"> São Paulo </option>
+</select>
+</fieldset>
+<fieldset id="sug-recl">
+<legend> Sugestões e Melhorias </legend>
+ <label for="cMen"> <p> Escreva abaixo a sua sugestão ou sua reclamação, seja em qualquer aspecto de nosso estabelecimento </p> </label> </p>
+<textarea name="txtMen" id="cMen" rows="20" cols="50" placeholder="Digite aqui..">
+</textarea>
+</fieldset>
+<input type="button" value="Enviar" onclick="validar()">
+
+
+</section>
+
+<footer id="rodape"> 
+<p> Criado por Jhonata Júnior &copy; </br>
+<a href="http://www.facebook.com.br/jhonata.junior.7" target="_blank"> Facebook &nbsp | </a> <a href="https://instagram.com.br/jhonatajr" target="_blank"> &nbsp Instagram </a> </p> 
+</footer>
+</div>
+
+</html>

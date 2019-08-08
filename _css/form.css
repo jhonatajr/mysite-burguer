@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+section#corpo-full {
+
+width: 1000px;
+margin-left: 20px;
+margin-bottom: 30px;}
+
+fieldset {
+	margin-top: 10px;
+	margin-bottom: 10px; }
+
+fieldset#Cliente {
+	width: 300px; }
+	
+div#imgfontconosco img#fontconosco {
+	margin-left: 545px;
+	margin-top: 15px;
+	width: 220px; }
+
+
